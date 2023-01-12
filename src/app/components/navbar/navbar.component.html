@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Zelx</a>
+      <img src="assets/logocar.png" style="height: 30px;" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+          </li>
+          <li class="nav-item" *ngIf="uye | async as user">
+            <a class="nav-link active" aria-current="page" *ngIf="user.admin =='1'" href="/kategoriler">Kategoriler</a>
+          </li>
+          <li class="nav-item" *ngIf="uye | async as user">
+            <a class="nav-link active" aria-current="page" *ngIf="user.admin =='1'" href="/uyeler">Üyeler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/products">Arabalar</a>
+          </li>
+          <li class="nav-item" *ngIf="uye | async as user">
+            <a class="nav-link active" aria-current="page" *ngIf="user.admin =='1'" href="/arabalar">Admin Arabalar</a>
+          </li>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" *ngIf="uye | async as user else loginButton">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/profil">
+                {{user.displayName}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" (click)="OturumKapat()">Oturumu Kapat</a>
+            </li>
+          </ul>
+          <ng-template #loginButton>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Oturum Aç/Kayıt Ol
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="login">Oturum Aç</a></li>
+              <li><a class="dropdown-item" href="kayit">Kayıt Ol</a></li>
+            </ul>
+          </li>
+        </ng-template>
+        </ul>
+      </div>
+    </div>
+  </nav>

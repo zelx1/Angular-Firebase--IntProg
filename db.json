@@ -1,0 +1,224 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "adi": "Honda",
+      "kaytarih": "1668069636299",
+      "duztarih": "1668069636299"
+    },
+    {
+      "id": 2,
+      "adi": "Mercedes",
+      "kaytarih": "1670008872586",
+      "duztarih": "1670008872586"
+    },
+    {
+      "id": 3,
+      "adi": "Nissan",
+      "kaytarih": "1670008881100",
+      "duztarih": "1670008881100"
+    },
+    {
+      "id": 4,
+      "adi": "Opel",
+      "kaytarih": "1670008889199",
+      "duztarih": "1670008889199"
+    },
+    {
+      "id": 5,
+      "adi": "BMW",
+      "kaytarih": "1670008895282",
+      "duztarih": "1670008895282"
+    },
+    {
+      "id": 6,
+      "adi": "gffhfhf",
+      "kaytarih": "1670337691920",
+      "duztarih": "1670337691920"
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "adsoyad": "ezel",
+      "mail": "ezel@mail.com",
+      "admin": "1",
+      "parola": "123",
+      "kaytarih": "1670090069810",
+      "duztarih": "1670090069810"
+    },
+    {
+      "id": 7,
+      "adsoyad": "test22",
+      "mail": "test07@mail.com",
+      "admin": "0",
+      "parola": "123",
+      "kaytarih": "1670318854346",
+      "duztarih": "1670318854346"
+    },
+    {
+      "id": 8,
+      "adsoyad": "canberk",
+      "mail": "canberk@mail.com",
+      "admin": "0",
+      "parola": "123",
+      "kaytarih": "1670318916885",
+      "duztarih": "1670332691905"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "carname": "Civic",
+      "year": 2012,
+      "categoryId": 1,
+      "kaytarih": "1669916322812",
+      "duztarih": "1670008955892",
+      "fiyat": 1950
+    },
+    {
+      "id": 3,
+      "carname": "Vtech",
+      "year": 1999,
+      "categoryId": "1",
+      "kaytarih": "1670008934198",
+      "duztarih": "1670008948711",
+      "fiyat": 1250
+    },
+    {
+      "id": 4,
+      "carname": "İes",
+      "year": 2004,
+      "categoryId": "1",
+      "kaytarih": "1670008975094",
+      "duztarih": "1670008975094",
+      "fiyat": 1450
+    },
+    {
+      "id": 5,
+      "carname": "E 200",
+      "year": 2016,
+      "categoryId": "2",
+      "kaytarih": "1670009045241",
+      "duztarih": "1670009045241",
+      "fiyat": 2750
+    },
+    {
+      "id": 6,
+      "carname": "AMG GT",
+      "year": 2019,
+      "categoryId": "2",
+      "kaytarih": "1670009094754",
+      "duztarih": "1670009094754",
+      "fiyat": 5750
+    },
+    {
+      "id": 7,
+      "carname": "S 3.20",
+      "year": 2017,
+      "categoryId": "2",
+      "kaytarih": "1670009148808",
+      "duztarih": "1670009148808",
+      "fiyat": 4500
+    },
+    {
+      "id": 8,
+      "carname": "Qashqai",
+      "year": 2012,
+      "categoryId": "3",
+      "kaytarih": "1670009176746",
+      "duztarih": "1670009176746",
+      "fiyat": 3150
+    },
+    {
+      "id": 9,
+      "carname": "GTR",
+      "year": 2015,
+      "categoryId": "3",
+      "kaytarih": "1670009230649",
+      "duztarih": "1670009230649",
+      "fiyat": 12750
+    },
+    {
+      "id": 10,
+      "carname": "Evalia",
+      "year": 2020,
+      "categoryId": "3",
+      "kaytarih": "1670009285940",
+      "duztarih": "1670009285940",
+      "fiyat": 6500
+    },
+    {
+      "id": 11,
+      "carname": "Corsa",
+      "year": 2005,
+      "categoryId": "4",
+      "kaytarih": "1670009305890",
+      "duztarih": "1670009305890",
+      "fiyat": 1250
+    },
+    {
+      "id": 12,
+      "carname": "Mokka",
+      "year": 2020,
+      "categoryId": "4",
+      "kaytarih": "1670009325947",
+      "duztarih": "1670009325947",
+      "fiyat": 3850
+    },
+    {
+      "id": 13,
+      "carname": "Astra",
+      "year": 2022,
+      "categoryId": "4",
+      "kaytarih": "1670009355996",
+      "duztarih": "1670009355996",
+      "fiyat": 4865
+    },
+    {
+      "id": 14,
+      "carname": "İ8",
+      "year": 2020,
+      "categoryId": "5",
+      "kaytarih": "1670009394648",
+      "duztarih": "1670009394648",
+      "fiyat": 15000
+    },
+    {
+      "id": 15,
+      "carname": "3.20i",
+      "year": 2019,
+      "categoryId": "5",
+      "kaytarih": "1670009447746",
+      "duztarih": "1670009447746",
+      "fiyat": 8600
+    },
+    {
+      "id": 16,
+      "carname": "3.30 xDrive",
+      "year": 2012,
+      "categoryId": "5",
+      "kaytarih": "1670009487744",
+      "duztarih": "1670009487744",
+      "fiyat": 6700
+    },
+    {
+      "id": 17,
+      "carname": "xxx",
+      "year": 1995,
+      "categoryId": "4",
+      "kaytarih": "1670332708595",
+      "duztarih": "1670332708595",
+      "fiyat": 522
+    },
+    {
+      "id": 18,
+      "carname": "sasa",
+      "year": 2005,
+      "categoryId": "3",
+      "kaytarih": "1670337163766",
+      "duztarih": "1670337163766",
+      "fiyat": 1500
+    }
+  ]
+}
